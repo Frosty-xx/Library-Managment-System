@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b10e4258-e67b-4532-8ce4-a8c507dcd5e2)![image](https://github.com/user-attachments/assets/b10e4258-e67b-4532-8ce4-a8c507dcd5e2)# Library-Managment-System
+Managment-System
 
 📚 Library Management System
 📝 Description
@@ -7,7 +7,7 @@ A desktop-based application developed using C++ and Qt, designed to efficiently 
  Installation
 Download and install the executable from the following link:
 
-[🔗 Download Library Management System](https://mega.nz/file/LIcwXKxK#sveA8eDHAy3kmVv_vub6Z2cYfInTi3dwLooWDA0uFds)
+
 
 
 🛠️ Built With
