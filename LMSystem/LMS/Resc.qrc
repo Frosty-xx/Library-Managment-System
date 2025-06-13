@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/Images"/>
+    <qresource prefix="/">
+        <file>Icons/illustration.ico</file>
+        <file>Icons/snowflake.ico</file>
+        <file>Icons/icons8-admin-50.ico</file>
+        <file>Icons/icons8-history-50.ico</file>
+        <file>Icons/icons8-library-50.ico</file>
+        <file>Icons/icons8-settings-50.ico</file>
+        <file>Icons/icons8-statistics-50.ico</file>
+        <file>Icons/dropdown.ico</file>
+        <file>Icons/icons8-book-50.ico</file>
+        <file>Icons/icons8-writing-50.ico</file>
+        <file>Icons/log-in.ico</file>
+        <file>Icons/search.ico</file>
+        <file>Icons/settings-50.ico</file>
+        <file>Icons/White Admin.ico</file>
+        <file>Icons/White Library icon.ico</file>
+        <file>Icons/writing-50 (1).ico</file>
+        <file>Icons/icons8-expand-arrow-64.ico</file>
+        <file>Icons/whiteNotifications.ico</file>
+        <file>Icons/icons8-notification-50 (1).ico</file>
+        <file>Icons/white history.ico</file>
+        <file>Icons/white statistics.ico</file>
+        <file>Pictures/Bibliophile-rafiki.svg</file>
+        <file>Pictures/Black Library Logo-03.svg</file>
+        <file>Pictures/Book Cover-01.svg</file>
+        <file>Pictures/Book Cover.svg</file>
+        <file>Pictures/Borrow.svg</file>
+        <file>Pictures/Green Tablet login-cuate.svg</file>
+        <file>Pictures/Hand holding pen-amico.svg</file>
+        <file>Pictures/Hand holding pen-rafiki.svg</file>
+        <file>Pictures/Library.svg</file>
+        <file>Pictures/Reserve.svg</file>
+        <file>Pictures/Return.svg</file>
+        <file>Pictures/Tablet login-cuate.svg</file>
+        <file>Pictures/White Library Logo.svg</file>
+        <file>Icons/B&amp;R.ico</file>
+        <file>Icons/icons8-upload-64.ico</file>
+        <file>Icons/upload-svgrepo-com.svg</file>
+        <file>Pictures/LibraryIcon.svg</file>
+        <file>Icons/icons8-notification-50.ico</file>
+        <file>Icons/library-svgrepo-com.ico</file>
+    </qresource>
+</RCC>

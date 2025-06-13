@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Adding</class>
+ <widget class="QWidget" name="Adding">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(240, 244, 227);
+color:black;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_9">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>25</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Add A Resource:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="styleSheet">
+      <string notr="true">background-color:black;</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_8">
+       <property name="spacing">
+        <number>6</number>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="font">
+            <font>
+             <family>Montserrat</family>
+             <pointsize>14</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Type:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QRadioButton" name="radioButton">
+             <property name="font">
+              <font>
+               <pointsize>13</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+    QRadioButton {
+        spacing: 6px;
+        font-weight: bold;
+        color: #2E2E2E;
+    }
+
+    QRadioButton::indicator {
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+        border: 2px solid #555;
+        background-color: white;
+    }
+
+    QRadioButton::indicator:checked {
+        background-color: #059862;
+        border: 2px solid #0D1721;
+    }
+
+    QRadioButton::indicator:hover {
+        border: 2px solid #44AE6A;
+    }
+</string>
+             </property>
+             <property name="text">
+              <string>Book</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButton_2">
+             <property name="font">
+              <font>
+               <pointsize>13</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+    QRadioButton {
+        spacing: 6px;
+        font-weight: bold;
+        color: #2E2E2E;
+    }
+
+    QRadioButton::indicator {
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+        border: 2px solid #555;
+        background-color: white;
+    }
+
+    QRadioButton::indicator:checked {
+        background-color: #059862;
+        border: 2px solid #0D1721;
+    }
+
+    QRadioButton::indicator:hover {
+        border: 2px solid #44AE6A;
+    }
+</string>
+             </property>
+             <property name="text">
+              <string>Article</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Orientation::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="font">
+              <font>
+               <family>Montserrat</family>
+               <pointsize>14</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Title:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="TitleField">
+             <property name="font">
+              <font>
+               <family>Montserrat</family>
+               <pointsize>14</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+background-color: #f7fff9;
+padding:5 5;
+color: rgb(0, 0, 0);
+selection-color: rgb(255, 255, 255);
+border-radius:3px;
+selection-background-color: #059862;
+border:1px solid black;}
+QLineEdit::focus{
+border:1px solid #059862
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="font">
+              <font>
+               <family>Montserrat</family>
+               <pointsize>14</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Author:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="AuthorField">
+             <property name="font">
+              <font>
+               <family>Montserrat</family>
+               <pointsize>14</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+background-color: #f7fff9;
+padding:5 5;
+color: rgb(0, 0, 0);
+selection-color: rgb(255, 255, 255);
+border-radius:3px;
+selection-background-color: #059862;
+border:1px solid black;}
+QLineEdit::focus{
+border:1px solid #059862
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="font">
+              <font>
+               <family>Montserrat</family>
+               <pointsize>14</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Genre:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="GenreField">
+             <property name="font">
+              <font>
+               <family>Montserrat</family>
+               <pointsize>14</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+background-color: #f7fff9;
+padding:5 5;
+color: rgb(0, 0, 0);
+selection-color: rgb(255, 255, 255);
+border-radius:3px;
+selection-background-color: #059862;
+border:1px solid black;}
+QLineEdit::focus{
+border:1px solid #059862
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="font">
+              <font>
+               <family>Montserrat</family>
+               <pointsize>14</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Quantity:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="QuantityField">
+             <property name="font">
+              <font>
+               <family>Montserrat</family>
+               <pointsize>14</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+background-color: #f7fff9;
+padding:5 5;
+color: rgb(0, 0, 0);
+selection-color: rgb(255, 255, 255);
+border-radius:3px;
+selection-background-color: #059862;
+border:1px solid black;}
+QLineEdit::focus{
+border:1px solid #059862
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="PagesLayout">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="Pages">
+             <property name="font">
+              <font>
+               <family>Montserrat</family>
+               <pointsize>14</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Pages:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="PagesField">
+             <property name="font">
+              <font>
+               <family>Montserrat</family>
+               <pointsize>14</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+background-color: #f7fff9;
+padding:5 5;
+color: rgb(0, 0, 0);
+selection-color: rgb(255, 255, 255);
+border-radius:3px;
+selection-background-color: #059862;
+border:1px solid black;}
+QLineEdit::focus{
+border:1px solid #059862
+}</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QCheckBox" name="checkBox">
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox {
+    spacing: 6px;
+    font-weight: bold;
+    color: #2E2E2E;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px; /* Square-ish, but softened */
+    border: 2px solid #555;
+    background-color: white;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #059862;
+    border: 2px solid #0D1721;
+}
+
+QCheckBox::indicator:hover {
+    border: 2px solid #44AE6A;
+}
+</string>
+           </property>
+           <property name="text">
+            <string>Electornic</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="UploadFileButton">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+QPushButton{
+background-color:white;
+border:1px solid black;
+
+}
+QPushButton::hover{
+	background-color: rgb(217, 217, 217);
+}</string>
+           </property>
+           <property name="text">
+            <string>Upload File</string>
+           </property>
+           <property name="icon">
+            <iconset resource="Resc.qrc">
+             <normaloff>:/Icons/upload-svgrepo-com.svg</normaloff>:/Icons/upload-svgrepo-com.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Orientation::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item alignment="Qt::AlignmentFlag::AlignVCenter">
+        <widget class="QLabel" name="label_7">
+         <property name="font">
+          <font>
+           <family>Montserrat</family>
+           <pointsize>14</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>Upload Cover:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="UploadCoverButton">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton{
+background-color:rgba(255, 255, 255, 0);
+border: 2px solid black;
+border-radius:15px;
+}
+
+QPushButton::hover{
+	
+	background-color:#D9EEE1;
+
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="Resc.qrc">
+           <normaloff>:/Icons/upload-svgrepo-com.svg</normaloff>:/Icons/upload-svgrepo-com.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>170</width>
+           <height>170</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignmentFlag::AlignHCenter">
+        <widget class="QLabel" name="Filename">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Policy::Preferred</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background-color:#059862;
+color:white;
+border:1px solid black;
+border-radius:2px;
+padding:7px 5px;
+}
+QPushButton::hover{
+
+background-color:#04AA6D;
+}</string>
+     </property>
+     <property name="text">
+      <string>Add</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Resc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
