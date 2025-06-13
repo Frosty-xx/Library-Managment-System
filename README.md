@@ -6,7 +6,7 @@ A desktop-based application developed using C++ and Qt, designed to efficiently 
 
  Installation
 Download and install the executable from the following link:
-
+[🔗 Download Library Management System](https://mega.nz/file/PNUxWLKZ#oaBI41wo_SUp31zU7CmLvHO2inzbn1zvO4Y70GBwLDA)
 
 
 
