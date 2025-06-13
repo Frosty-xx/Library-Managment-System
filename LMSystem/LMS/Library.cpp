@@ -258,6 +258,7 @@ bool Library::LibraryCencelReserve(User *user, int ID)
     }
 
     for (int i = 0; i < Reserves.size(); i++) {
+        if(!Reserves[i].empty()){
         if (Reserves[i]->front()->getId() == ID) {
             queue<Reserve *> copy = *Reserves[i];
             vector<Reserve *> Replacement;
@@ -279,7 +280,7 @@ bool Library::LibraryCencelReserve(User *user, int ID)
             return true;
         }
     }
-
+}
     return false;
 }
 bool Library::LReturnItem(User *user,int ID)
@@ -423,6 +424,7 @@ bool Library::LRenewItem(User *user, int ID, int QuantitytoADD)
         // Move Reserves;
         int count = QuantitytoADD;
         for (unsigned int i = 0; i < Reserves.size(); i++) {
+            if(!Reserves[i].empty()){
             if (Reserves[i]->front()->getId() == ID) {
                 while (!Reserves[i]->empty() and count > 0) {
                     Waiting.push_back(Reserves[i]->front());
@@ -449,6 +451,7 @@ bool Library::LRenewItem(User *user, int ID, int QuantitytoADD)
         }
         r->setIsAvailable(r->getavailableQuantity() > 0 ? 1 : 0);
         return true;
+    }
     }
     return false;
 }
