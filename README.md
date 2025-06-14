@@ -5,8 +5,9 @@ Libarary-Managment-System
 A desktop-based application developed using C++ and Qt, designed to efficiently manage the operations of a library. It allows administrators to manage books, articles, and user accounts, while users can borrow, return, and reserve library resources through a user-friendly graphical interface.
 
  Installation
+ 
 Download and install the executable from the following link:
-[🔗 Download Library Management System](https://mega.nz/file/PNUxWLKZ#oaBI41wo_SUp31zU7CmLvHO2inzbn1zvO4Y70GBwLDA)
+[🔗 Download Library Management System](https://mega.nz/file/HV0kACzZ#m3-Sb_QUvQJTKvNQ1-ej89Qm9n3TGvPbGa_KkPBInFM)
 
 
 
